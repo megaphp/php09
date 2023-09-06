@@ -1,0 +1,109 @@
+.wrapper{
+	width:1200px;
+	margin:0 auto;
+	border:1px solid black;
+}
+.header{
+	background:green;
+	height:200px;
+	background-image:url(".jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.header h1{
+	margin:0;
+	font-size:40px;
+	text-align:center;
+	color:yellow;
+	padding-top:30px;
+}
+/*
+	======================================
+		Navigation Bar
+	=======================================
+*/
+.navbar{
+	background:#306754;
+}
+.navbar ul{
+	margin:0;
+	text-align:center;
+
+}
+
+/* .navbar ul li a{
+	text-decoration:none;
+	color:white;
+	padding:10px;
+	font-size:20px;
+}
+.navbar ul li:hover{
+	background:gray;
+}
+.navbar ul li a:hover{
+	color:#ffff00;
+} */
+
+
+
+.main{
+	background:#b2c248;
+
+}
+.leftbar{
+	width:20px;
+	height:30px;
+	float:left;
+	padding:5px;
+}
+.content{
+	background:#ffffff;
+	width:1150px;
+	min-height:500px;
+	float:left;
+	padding:5px;
+}
+.rightbar{
+	width:500px;
+	height:30px;
+	float:left;
+	padding:10px;
+}
+.footer{
+	text-align: center;
+	clear:both;
+	font-size: 20px;
+	color:white;
+	background:#6495ED;
+	height:50px;
+}
+div.overflow-auto{
+	text-align: center;
+	background-color: lightblue;
+ height: 480px;
+ width: 900px;
+ overflow-y: scroll;
+}
+div.card{
+	background-color: lightblue;
+ height: 480px;
+ width: 1140px;
+ overflow-y: scroll;
+}
+div.overflow{
+	text-align: center;
+
+ height: 480px;
+ width: 900px;
+ overflow-y: scroll;
+}
+.profile{
+	 	background: skyblue;
+    position: relative;
+		font-size: 20px;
+    width: 400px;
+	  padding: 10px;
+	  min-height: 300px
+    border: 2px solid black;
+    border-radius: 20px;
+}
